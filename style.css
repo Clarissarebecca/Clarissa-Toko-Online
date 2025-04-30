@@ -1,0 +1,156 @@
+body{
+    margin:0px;
+}
+html {
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    top: 0;
+    width: 100%;
+    height: 85px;
+    background-color: 	#4b1e00;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    color: white;
+    padding: 5px;
+    padding-top: 45px;
+    font-size: larger;
+    border-color: beige;
+    border-radius: 30px;
+}
+nav a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    font-size: 130%;
+    padding:45px 25px;
+    align-items: center;
+    justify-content: center;
+}
+nav a:hover {
+    background-color: beige;
+    border-radius: 50px;
+    border-width: 5px;
+    border-style:groove;
+    color: black;
+}
+section.home{
+    background: url("Gambar/pexels-asphotograpy-95960.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    height: 600px;
+    padding-top: 250px;
+}
+section.home div{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+    font-size: 25px;
+}
+section.home .welcome{
+    font-size: 30px;
+    padding-top: 100px;
+}
+section.home a{
+    color: beige;
+    padding: 10px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+    text-align: justify;
+    background-color: rgb(102, 14, 4);
+}
+section.about{
+    background-color: #4B1E00;
+    height: 1250px;
+    padding-top: 40px;
+}
+section.about div{
+    color:white;
+    text-align: center;
+    margin: auto;
+    width: 70%;
+}
+section.about img{
+    height: 400px;
+}
+section.product{
+    background: url("Gambar/pexels-chris-f-38966-1283219.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 1100px;
+}
+section.product .container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+section.product .container .card{
+    background-color: rgb(58, 1, 1);
+    text-align:center;
+    padding: 5px;
+    width: 300px;
+    height: 450px;
+    margin: 15px;
+    font-size: 15px;
+    border-radius: 15px;
+}
+section.product .container .card img{
+    width:100%;
+    height:100%;
+    border-radius: 5px;
+}
+section.product .container .card a{
+    color:rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 5px 20px;
+    border-style:solid;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px rgb(132, 15, 15);
+    border-radius:20px;
+    background-color: rgb(107, 13, 13);
+}
+section.contact{
+    background-color: rgb(62, 2, 2);
+    height: 650px;
+}
+section.contact .card{
+    margin: auto;
+    color: rgb(250, 248, 248);
+    text-align:center;
+    padding-top: 85px;
+    width: 600px;
+    font-size: larger;
+
+}
+section.contact .card img{
+    width: 400px;
+    height: 370px;
+}
+footer{
+    background-color:  	#4B1E00;
+    height: 50px;
+    text-align: center;
+}
+footer .medsos{
+    text-align: center;
+    padding-left: 10px;
+    font-size: xx-large;
+    color: wheat;
+}
+footer .medsos a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 5px 20px;
+    text-align: center;
+}
+div img{
+    height: 90px;
+}
