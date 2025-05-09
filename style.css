@@ -125,13 +125,13 @@ section.contact{
 }
 @keyframes fading {
     0% {
-      transform: opacity(1);
+      transform: opacity(1s);
     }
     50% {
-      transform: opacity(1,05);
+      transform: opacity(3s);
     }
     100% {
-      transform: opacity(1);
+      transform: opacity(1s);
     }
   }
   section.product .card:hover {
